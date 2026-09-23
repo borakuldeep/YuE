@@ -99,6 +99,8 @@ source .venv/bin/activate
 python -m pip install --upgrade pip
 python -m pip install .
 python examples/generate.py --output outputs/first-song
+OR just run below app.py. provide your own lyrics and styles
+python app.py
 ```
 
 Open `outputs/first-song/audio.flac`. The output directory also retains the score, semantic tokens, acoustic latents, generation settings, and model identities.
